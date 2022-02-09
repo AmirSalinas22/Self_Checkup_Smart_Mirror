@@ -1,0 +1,10 @@
+.checkup_title{
+  display: inline-block;
+  font-size: 80px;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: white;
+  overflow: hidden;
+  border: none;
+
+}

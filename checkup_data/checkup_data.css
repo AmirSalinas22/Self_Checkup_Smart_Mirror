@@ -1,0 +1,39 @@
+.checkup_data{
+  display: inline-flex;
+  height: 140px;
+  width: 300px;
+  padding: 0;
+  background-color: rgb(229, 255, 0);
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  overflow: hidden;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkup_data:hover
+{
+  background-color: rgb(211, 242, 98);
+}
+
+.checkup_data:active
+{
+ background-color: rgb(164, 206, 67);
+}
+
+.data__text,
+.data__icon{
+  display: inline-flex;
+  align-items: center;
+  padding: 0px 25px;
+  height: 100%;
+  width: 100%;
+}
+
+.data__icon{
+  font-size: 1.5em;
+}
